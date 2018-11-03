@@ -72,9 +72,9 @@ awk '{print $3}' dmel-all-r6.24.gtf > featurelist.txt
 
 ```
 sort featurelist.txt \
-> | uniq -c \
-> | sort -rn \
-> | nl
+| uniq -c \
+| sort -rn \
+| nl
      1	 187315 exon
      2	 161014 CDS
      3	  46339 5UTR
@@ -97,10 +97,10 @@ As a pipeline to not write an extra file of the feature list on its own.
 
 ```
 awk '{print $3}' dmel-all-r6.24.gtf \
-> | sort \
-> | uniq -c \
-> | sort -rn \
-> | nl
+| sort \
+| uniq -c \
+| sort -rn \
+| nl
      1	 187315 exon
      2	 161014 CDS
      3	  46339 5UTR
