@@ -1,3 +1,4 @@
+```
 wget ftp://ftp.flybase.net/genomes/Drosophila_melanogaster/current/fasta/dmel-all-chromosome-r6.24.fasta.gz
 
 wget ftp://ftp.flybase.net/genomes/Drosophila_melanogaster/current/fasta/md5sum.txt
@@ -26,3 +27,4 @@ awk '{print $1,$3}' dmel-all-r6.24.gtf \
 | uniq -c \
 | sort -rn \
 | nl
+```
