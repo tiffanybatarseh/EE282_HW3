@@ -173,11 +173,11 @@ grep '[XY234][LR]\?' chrfeature.txt \
 
 ```
 
-There are:  
-4202 genes on 3R. 
-3628 genes on 2R. 
-3501 genes on 2L. 
-3464 genes on 3L. 
-2676 genes on X. 
-113 genes on Y. 
-111 genes on 4. 
+There are: </br>
+4202 genes on 3R </br>
+3628 genes on 2R </br>
+3501 genes on 2L </br>
+3464 genes on 3L </br>
+2676 genes on X </br>
+113 genes on Y </br>
+111 genes on 4 </br>
