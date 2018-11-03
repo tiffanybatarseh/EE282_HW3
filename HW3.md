@@ -23,9 +23,7 @@ dmel-all-chromosome-r6.24.fasta.gz: OK
 
 ```
 
-## Calculate the following for the whole genome
-
-To determine the total number of nucleotides
+## Calculate number of nucleotides, number of N's and total number of sequences
 
 ```
 module load jje/kent
@@ -40,9 +38,15 @@ L count: mean 0.0 sd 0.0
 %0.00 masked total, %0.00 masked real
 ```
 
+There are 43,726,002 nucleotides. 
+There are 1152978 N's. 
+There are 1870 sequences.  
+
 # Summarize an annotation files
 
-## Download
+## Download the gtf file
+
+I am downloading the gtf file and checksum file in a separate directory I created in my workspace.
 
 ```
 wget ftp://ftp.flybase.net/genomes/Drosophila_melanogaster/current/gtf/dmel-all-r6.24.gtf.gz
@@ -169,11 +173,11 @@ grep '[XY234][LR]\?' chrfeature.txt \
 
 ```
 
-There are:
-4202 genes on 3R
-3628 genes on 2R
-3501 genes on 2L
-3464 genes on 3L
-2676 genes on X
-113 genes on Y
-111 genes on 4
+There are:  
+4202 genes on 3R. 
+3628 genes on 2R. 
+3501 genes on 2L. 
+3464 genes on 3L. 
+2676 genes on X. 
+113 genes on Y. 
+111 genes on 4. 
