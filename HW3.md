@@ -181,3 +181,7 @@ There are: </br>
 2676 genes on X </br>
 113 genes on Y </br>
 111 genes on 4 </br>
+
+### Comments on "Summarize an annotation file"
+
+Excellent.
