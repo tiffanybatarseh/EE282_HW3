@@ -42,6 +42,8 @@ There are 43,726,002 nucleotides.
 There are 1152978 N's. 
 There are 1870 sequences.  
 
+### Looks like you left out the leading 1 in the # of nt's.
+
 # Summarize an annotation files
 
 ## Download the gtf file
